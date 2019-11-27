@@ -1,0 +1,20 @@
+
+body {
+    /* scieżka musi być względem pliku /js/app.js */
+    background: dodgerblue;
+  }
+  
+  ::placeholder {
+    color: blue,
+  }
+  
+  body {
+    transition: 1s;
+    display: flex;
+    /* now */
+  }
+
+  footer {
+    background: blue;
+    color: red;
+  }
