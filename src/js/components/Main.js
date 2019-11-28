@@ -32,7 +32,7 @@ class Main extends Component {
             }
             return (
                 <div className="container">
-                    <div>
+                    <div className="col-lg-10 col-lg-offset-1">
                         <QuestionCounter dataArray={dataArray} setCurrent={this.setCurrent} {...this.state} />
                         <ListOfQuestions dataArray={dataArray} setScore={this.setScore} setCurrent={this.setCurrent} {...this.state} />
                     </div>

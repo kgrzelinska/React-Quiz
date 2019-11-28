@@ -23,19 +23,19 @@ class Question extends Component {
                 <ul className={"listOfAnswers"}>
                     <li>
                         <input
-                            onChange={this.handleChange} name="name" type="radio" value="0"/> {question.answers[0]}
+                            onChange={this.handleChange} name="name" type="radio" value="0"/> <span>A</span> <p> {question.answers[0]} </p>
                     </li>
                     <li>
                         <input
-                            onChange={this.handleChange} name="name" type="radio" value="1"/> {question.answers[1]}
+                            onChange={this.handleChange} name="name" type="radio" value="1"/> <span>B</span> <p> {question.answers[1]} </p>
                     </li>
                     <li>
                         <input
-                            onChange={this.handleChange} name="name" type="radio" value="2"/> {question.answers[2]}
+                            onChange={this.handleChange} name="name" type="radio" value="2"/> <span>C</span> <p> {question.answers[2]} </p>
                     </li>
                     <li>
                         <input
-                            onChange={this.handleChange} name="name" type="radio" value="3"/> {question.answers[3]}
+                            onChange={this.handleChange} name="name" type="radio" value="3"/> <span>D</span><p> {question.answers[3]} </p>
                     </li>
                 </ul>
             </div>
