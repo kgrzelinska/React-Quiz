@@ -14,7 +14,8 @@ class Popup extends React.Component {
             btnText: 'START THE QUIZ'
         };
 
-        popupHandle() {
+        popupHandle()
+        {
             let {time} = this.state;
             if (time === 'start') {
                 this.setState({
@@ -25,5 +26,6 @@ class Popup extends React.Component {
             }
         }
     }
+
     return
 }
