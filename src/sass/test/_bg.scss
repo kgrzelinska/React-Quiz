@@ -5,7 +5,7 @@ body {
   font-family: 'Signika', sans-serif;
   margin-bottom: 50px;
   margin-top: 70px;
- }
+}
 
 .container {
   justify-content: center;
@@ -13,22 +13,22 @@ body {
   position: center;
 }
 
-.flex-box{
+.flex-box {
   display: flex;
 }
 
 .questionCounter {
   text-align: center;
   position: center;
-  display: block;
+  //display: block;
   padding-bottom: 10px;
 }
 
 .questionCounter p {
-   color: #30ABEF;
-   font-size: 22px;
-   font-weight: bold;
- }
+  color: #30ABEF;
+  font-size: 22px;
+  font-weight: bold;
+}
 
 .questionCounter p span {
   color: #94438f;
@@ -52,10 +52,10 @@ body {
   background-color: rgba(255, 238, 168, 0.8);
   margin-left: 100px;
   margin-right: 100px;
- }
+}
 
 
-.listOfQuestions h2{
+.listOfQuestions h2 {
   background-color: white;
   color: #000033;
   border: 2px solid #ff0f00;
@@ -69,10 +69,10 @@ body {
 }
 
 
-.listOfQuestions ul{
+.listOfQuestions ul {
   list-style-type: none;
   display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 10px;
   padding: 0;
@@ -81,7 +81,7 @@ body {
 
 .listOfQuestions li {
   background: #fff;
-  border: 2px solid  #ff0f00;
+  border: 2px solid #ff0f00;
   border-radius: 40px;
   min-height: 60px;
   width: 48%;
@@ -91,7 +91,7 @@ body {
   display: flex;
 }
 
-.listOfQuestions p{
+.listOfQuestions p {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -108,23 +108,23 @@ body {
   transition: color .3s ease;
 }
 
-.listOfQuestions  li span {
+.listOfQuestions li span {
   background: #FF6619;
   font-size: 35px;
   font-weight: 700;
   color: #fff;
-    display: flex;
+  display: flex;
   width: 60px;
-    align-items: center;
+  align-items: center;
   justify-content: center;
   transition: background-color .3s ease;
   border-bottom-left-radius: 37px;
   border-top-left-radius: 37px;
-  border: 4px solid #FF6619;
+  border: 2px solid #FF6619;
 }
 
 
-.listOfQuestions li:after{
+.listOfQuestions li:after {
   display: block;
 }
 
@@ -133,35 +133,51 @@ body {
 }
 
 .result {
-  background: #FFDDA9;
-  height: 300px;
+  background-color: rgba(255, 238, 168, 0.8);
+  height: 250px;
   width: 600px;
-  border: 3px solid #FF6619;
+  border: 3px solid #ff0f00;
   border-radius: 40px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: center;
 }
 
 .result div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  //flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   position: center;
 }
 
 .result h3 {
-  color: #000033;
+  color: #30ABEF;
   font-size: 30px;
-  font-weight: bold;
-  }
-
-.result h2 {
-  color: #000033;
-  font-size: 20px;
   font-weight: bold;
 }
 
+.result h2 {
+  color: #FF6619;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.result h3 span {
+  color: #94438f;
+}
 .result button {
-  border: 2px solid #FF6619;
+  border: 2px solid #ff0f00;
   border-radius: 40px;
-  background: #FF6619;
-  height: 70px;
+  background: #fff;
+  height: 55px;
   width: 150px;
 }
 
@@ -171,10 +187,6 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
-
-
-
-
 
 footer {
   background: #642F10;
@@ -198,5 +210,6 @@ footer div {
 
 footer a {
   color: #FF6619;
+  text-decoration: none;
 }
 

@@ -28,5 +28,41 @@ export default [
         question: 'Which of the following is the tainted property of a window object in Java Script? ',
         answers: ['Pathname', 'Protocol ', 'Defaultstatus ', 'Host'],
         correct: 2
+    },
+    {
+        id: 6,
+        question: 'Which attribute needs to be changed to make elements invisible?',
+        answers: ['visibilty ', 'visible  ', 'invisibility', 'invisible'],
+        correct: 0
+    },
+    {
+        id: 7,
+        question: 'Which of the following is used to capture all click events in a window?',
+        answers: ['window.captureEvents(Event.CLICK);', 'window.routeEvents(Event.CLICK );', 'window.handleEvents (Event.CLICK); ', 'window.raiseEvents(Event.CLICK );'],
+        correct: 0
+    },
+    {
+        id: 8,
+        question: 'Which of the following is not a valid JavaScript variable name?',
+        answers: ['2java', '_java_and_ java _names ', ' javaandjava', 'None of the above'],
+        correct: 0
+    },
+    {
+        id: 9,
+        question: 'What is negative infinity in Java script?',
+        answers: ['Any of below', 'number in JavaScript, derived by dividing number by a negative number', 'number in JavaScript, derived by dividing number by zero', 'number in JavaScript, derived by dividing negative number by zero'],
+        correct: 3
+    },
+    {
+        id: 10,
+        question: 'Which of the following is a client-side Java Script object?',
+        answers: ['File', 'Function', 'FileUpload', 'Time'],
+        correct: 2
+    },
+    {
+        id: 11,
+        question: 'What is the alternate name for Java script?',
+        answers: [' LimeScript ', 'Both a and d', 'ECMScript ', 'ECMAScript '],
+        correct: 3
     }
- ]
+]

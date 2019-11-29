@@ -4,6 +4,7 @@ import QuestionCounter from './QuestionCounter';
 import ListOfQuestions from "./ListOfQuestions";
 import Results from './Results';
 import Footer from "./Footer";
+// import Popup from "./Popup"
 import dataArray from "../data/dataArray";
 
 // import './../sass/style.scss';
@@ -27,8 +28,12 @@ class Main extends Component {
 
     render() {
         if (this.state.current > dataArray.length) {
-            return <Results className="col-lg-10 col-lg-offset-1 flex-box" dataArray={dataArray}
+            return (
+                <div>
+                <Results dataArray={dataArray}
                             setScore={this.setScore} setCurrent={this.setCurrent} {...this.state}/>
+                <Footer/>
+                </div>);
         }
         return (
             <div className="container">
