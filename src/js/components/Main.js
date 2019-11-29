@@ -30,10 +30,20 @@ class Main extends Component {
         if (this.state.current > dataArray.length) {
             return (
                 <div>
-                <Results dataArray={dataArray}
-                            setScore={this.setScore} setCurrent={this.setCurrent} {...this.state}/>
-                <Footer/>
-                </div>);
+                    <div className="flex-box">
+                        <Results dataArray={dataArray}
+                                 setScore={this.setScore} setCurrent={this.setCurrent} {...this.state}/>
+
+                    </div>
+                    <div className="iconFooter flex-box">
+
+                        <i class="fab fa-facebook-square"></i>
+                        <i className="fab fa-instagram"></i>
+                        <i class="fab fa-twitter-square"></i>
+                    </div>
+                    <Footer/>
+                </div>
+            );
         }
         return (
             <div className="container">

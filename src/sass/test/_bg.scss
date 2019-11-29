@@ -1,3 +1,8 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
 
 body {
   background-image: url('../images/81375.jpg');
@@ -15,6 +20,7 @@ body {
 
 .flex-box {
   display: flex;
+  justify-content: center;
 }
 
 .questionCounter {
@@ -153,9 +159,11 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
   position: center;
+}
+
+div .result{
+  margin-top: 70px;
 }
 
 .result h3 {
@@ -187,6 +195,50 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
+
+.iconFooter div {
+  display: block;
+}
+
+.fab {
+  padding-top: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fab:hover {
+  opacity: 0.7;
+  transform: scale(1.03);
+}
+
+/* Facebook */
+.fa-facebook-square {
+  color: blue;
+}
+
+/* Twitter */
+.fa-twitter-square{
+color: purple;
+}
+
+/* Instagram */
+.fa-instagram {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   background: #642F10;

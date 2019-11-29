@@ -9,7 +9,7 @@ class Results extends Component {
         return (
             <div className="result">
                 <h2> You have completed the quiz</h2>
-                <h3> You got <span> {this.props.score} </span> out of <span> {this.props.dataArray.length} </span> questions right </h3>
+                <h3> You got <span> {this.props.score} </span> out of <span> {this.props.dataArray.length} </span> points </h3>
                 <button className="btn btn-default"><a href="/">Take again</a></button>
             </div>
         );
