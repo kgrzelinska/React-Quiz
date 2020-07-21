@@ -1,9 +1,6 @@
 import React, {Component} from "react";
 import ReactDOM from 'react-dom';
 
-
-// --------------------komponent popup------------------------ //
-
 class Popup extends Component {
     constructor(props) {
         super(props);

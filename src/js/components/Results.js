@@ -1,8 +1,6 @@
 import ReactDOM from 'react-dom';
 import React, {Component} from "react";
 
-// -------------- KROK: wyświetlanie osiągniętego wyniku i podsumowania wiadomości w zależności od niego ----------------
-
 class Results extends Component {
     render() {
         let resultsPercent = (this.props.score / this.props.dataArray.length * 100);

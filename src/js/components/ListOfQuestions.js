@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import Question from "./Question";
 
-// -------------- KROK: wyświetlanie pytań ----------------
-
 class ListOfQuestions extends Component {
     render() {
         return (

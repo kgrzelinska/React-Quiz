@@ -1,8 +1,5 @@
 import React, {Component} from "react";
 
-// -------------- KROK: wyświetlanie pytania z odpowiedziami /mapowanie/, ----------------
-// -------------- akcja dodania +1 po wybraniu poprawnej odpowiedzi   ----------------
-
 class Question extends Component {
     handleChange = (e) => {
         const {question} = this.props;
@@ -27,7 +24,7 @@ class Question extends Component {
                     </li>
                     <li data-id="2" onClick={this.handleChange}><span>C</span> <p> {question.answers[2]} </p>
                     </li>
-                    <li data-id="3" onClick={this.handleChange}><span>C</span> <p> {question.answers[3]} </p>
+                    <li data-id="3" onClick={this.handleChange}><span>D</span> <p> {question.answers[3]} </p>
                     </li>
                 </ul>
             </div>
